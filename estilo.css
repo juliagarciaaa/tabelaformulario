@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+
+}
+
+/* Cabeçalho*/
+header section {
+    background-image: url(img/download.jpg);
+    height: 8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header section h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 2rem;
+    background-color: rgb(67, 67, 133);
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Main inicial*/
+
+.Inicial {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.inicial section p {
+    padding: 0px 10px;
+}
+
+section h2 {
+    font-weight: bold;
+    padding: 10px 5px;
+
+}
+
+.listagem {
+    list-style: upper-roman;
+}
+
+.quadradinho {
+
+    list-style: square;
+}
+
+.inicial p {
+    display: flex;
+    justify-content: center;
+}
+
+/* Rodapé*/
+footer {
+    background-color: rgb(67, 67, 133);
+    height: 3rem;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+footer p {
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+/* Main curso*/
+
+.curso p {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso {
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+thead,
+tfoot {
+    font-weight: bolder;
+}
+
+table tr th,
+table tr td {
+    border: 2px solid black;
+    padding: 0.3rem
+}
+
+.FAQ ol li {
+    font-weight: bold;
+}
+
+.FAQ h3 {
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+.FAQ a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+}
+
+.contato form fieldset p button {
+    max-width: 20%;
+    height: 5rem;
+    width: 5rem;
+    border: 0.7 black;
+    background-color: rgb(67, 67, 133);
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.contato form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    font-size: 1.7rem;
+}
+
+.contato form fieldset p {
+    padding: 5px;
+}
